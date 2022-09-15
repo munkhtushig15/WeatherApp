@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gainsboro;
+}
+
+.container {
+    width: 15%;
+    height: 70%;
+    background-color: #13274F;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 30px;
+    border-radius: 30px;
+}
+
+/* style of header */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#date {
+    font-size: 18px;
+    color: #B0C4DE;
+}
+
+#location {
+    font-size: 40px;
+    font-weight: 600;
+    color: #fff;
+}
+
+#locationBar {
+    font-size: 35px !important;
+    color: #B0C4DE;
+}
+
+/* style of main */
+
+main {
+    display: flex;
+    flex-direction: column;
+
+}
+
+main img {
+    width: 100%;
+}
+
+#celcium {
+    font-size: 100px;
+    font-weight: bold;
+    background: -webkit-linear-gradient( #5072A7, #7CB9E8);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transform: translateY(-80px);
+}
+
+#udriinYnzBaidal {
+    font-size: 30px;
+    color: orange;
+    transform: translateY(-80px);
+}
+
+/* style of footer */
+
+footer {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 10%;
+}
+
+#iconContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.icon {
+    font-size: 30px !important;
+    color: #B0C4DE;
+}
+
+#active {
+    color: #fff;
+}
